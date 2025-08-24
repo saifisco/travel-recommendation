@@ -142,3 +142,64 @@ nav .search_bar button {
   padding: 5px 10px;
   color: white;
 }
+/* Contact us */
+.contact_us {
+  color: white;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  padding: 20px 40px;
+}
+.contact_us > div {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  flex-grow: 1;
+}
+.contact_us > div h1 {
+  font-size: 42px;
+  text-transform: uppercase;
+}
+.contact_us form {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  background-color: #00000022;
+  padding: 20px;
+}
+.contact_us form label {
+  display: block;
+}
+.contact_us form input {
+  padding: 5px 10px;
+  width: 100%;
+  border: 1px solid white;
+  background-color: transparent;
+  color: white;
+  outline: none;
+  border-radius: 6px;
+  margin-top: 5px;
+}
+.contact_us form textarea {
+  padding: 5px 10px;
+  width: 100%;
+  border: 1px solid white;
+  background-color: transparent;
+  color: white;
+  outline: none;
+  border-radius: 6px;
+  margin-top: 5px;
+}
+.contact_us form button {
+  background-color: rgb(12, 12, 203);
+  font-size: 16px;
+  padding: 10px 0px;
+  color: white;
+  outline: none;
+  border: 1px solid white;
+  border-radius: 6px;
+  cursor: pointer;
+}
