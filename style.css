@@ -93,3 +93,52 @@ nav .search_bar button {
   cursor: pointer;
   background-color: rgb(12, 12, 203);
 }
+/* About style */
+.container .about {
+  padding: 20px 80px;
+  color: white;
+}
+
+.container .about h1 {
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.container .about p {
+  margin-top: 10px;
+  padding: 5px;
+  font-size: 1.125rem;
+  background-color: #00000044;
+}
+.about .team {
+  margin-top: 40px;
+  background-color: #00000011;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.about .team h2 {
+  font-size: 38px;
+  text-transform: capitalize;
+}
+.team .team_member {
+  background-color: #00000066;
+  /* border: 1px solid; */
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.team .team_member .name {
+  font-size: 18px;
+  background-color: #00000022;
+}
+.team .team_member button {
+  width: 100%;
+  background-color: rgb(12, 12, 203);
+  border: none;
+  border-radius: 8px;
+  padding: 5px 10px;
+  color: white;
+}
