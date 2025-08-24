@@ -1,0 +1,95 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  height: 100vh;
+  background-image: url("https://images.pexels.com/photos/210012/pexels-photo-210012.jpeg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+/* navbar */
+nav {
+  /* height: 80px; */
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 40px;
+  align-items: center;
+}
+nav .logo {
+  font-size: 32px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+nav .navbar {
+  flex-grow: 1;
+  display: flex;
+  justify-content: center;
+}
+.navbar a {
+  color: white;
+  display: inline-block;
+  text-decoration: none;
+  padding: 2.5px 10px;
+  font-weight: bold;
+}
+nav .search_bar {
+  background-color: white;
+  padding: 10px 20px;
+  border-radius: 50px;
+}
+nav .search_bar input::placeholder {
+  font-size: 16px;
+}
+nav .search_bar input {
+  outline: none;
+  padding: 10px 5px;
+  border-radius: 6px;
+  border: none;
+  font-size: 1.125rem;
+}
+nav .search_bar button {
+  padding: 10px 10px;
+  cursor: pointer;
+  border-radius: 6px;
+  color: white;
+  background-color: rgb(12, 12, 203);
+  outline: none;
+  border: none;
+  font-size: 16px;
+}
+.container.home {
+  display: flex;
+  color: white;
+}
+/* home style */
+.container .home {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  background-color: #00000044;
+  font-size: 28px;
+  padding: 80px;
+  width: 50%;
+}
+
+.container .home p {
+  padding-top: 1.5rem;
+}
+.container .home button {
+  padding: 10px 20px;
+  margin: 0 auto;
+  margin-top: 40px;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 1.125rem;
+  cursor: pointer;
+  background-color: rgb(12, 12, 203);
+}
